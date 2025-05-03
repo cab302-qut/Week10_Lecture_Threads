@@ -1,10 +1,12 @@
+package ImplementRunnable;
+
 public class NewThread implements Runnable{
 
     Thread myThread;
 
     public NewThread() {
         myThread = new Thread(this, "Demo Thread");
-        System.out.println("My Thread - Thread ID = " + myThread.threadId());
+        System.out.println("Child Thread - Thread ID = " + myThread.threadId());
     }
 
     public Thread getThread() {

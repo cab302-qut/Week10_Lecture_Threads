@@ -1,4 +1,7 @@
 package ImplementRunnable;
+/*
+Runnable Interface
+ */
 
 public class NewThread implements Runnable{
 
